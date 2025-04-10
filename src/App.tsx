@@ -1,65 +1,74 @@
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { QuizProgress } from './components/QuizProgress';
-import { QuizQuestion } from './components/QuizQuestion';
+import { TypeQuizQuestion } from './components/TypeQuizQuestion';
 import { LeadForm } from './components/LeadForm';
-import { QuizResult } from './components/results/QuizResult';
+import { TypeQuizResult } from './components/results/TypeQuizResult';
 import { NameInput } from './components/onboarding/NameInput';
 import { GenderSelect } from './components/onboarding/GenderSelect';
 import { AgeSelect } from './components/onboarding/AgeSelect';
 import { WelcomeScreen } from './components/onboarding/WelcomeScreen';
-import { careerQuestions } from './data/careerQuizData';
-import { useQuiz } from './hooks/useQuiz';
+import { typeQuestions, quizTitle, quizSubtitle, personalityTypes } from './data/typeQuizData';
+import { useTypeQuiz } from './hooks/useTypeQuiz';
 import './styles/index.css';
+
+// Coach information
+const COACH_NAME = "Adalgisa Holtrop";
+const COACH_IMAGE = "https://nrojbwxcqochzwhmmkql.supabase.co/storage/v1/object/sign/coaches-profile-images/Adalgisa%20Holtrop%20PP.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjb2FjaGVzLXByb2ZpbGUtaW1hZ2VzL0FkYWxnaXNhIEhvbHRyb3AgUFAuanBlZyIsImlhdCI6MTc0MzUxNTU3OCwiZXhwIjoxNzc1MDUxNTc4fQ.jwKlSeEiiMYvc2m5hWV-L45gnvvN0acuha5H_hFhZAs"; // Profile picture URL from branding.json
 
 function App() {
   const {
     state,
     userData,
     result,
+    typeCounts,
     handleAnswer,
     handleFormSubmit,
-    calculateResult,
     setUserData,
     updateOnboarding,
     nextStep
-  } = useQuiz();
+  } = useTypeQuiz();
 
   const handleFormChange = (field: keyof typeof userData, value: string) => {
     setUserData(prev => ({ ...prev, [field]: value }));
   };
 
+  // Helper function to replace [Name] placeholders with the user's first name
+  const replaceNamePlaceholder = (text: string): string => {
+    return text.replace(/\[Name\]/g, state.onboardingData.firstName || '');
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50 py-4 sm:py-8 md:py-12 px-2 sm:px-4">
+    <div className="min-h-screen bg-secondary-100 py-12 px-4">
       <div className="quiz-container">
-        {state.step !== 'welcome' && (
-          <img
-            src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop"
-            alt="Career Coach"
-            className="coach-image"
+        {state.step !== 'welcome' && COACH_IMAGE && (
+          <motion.img
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            src={COACH_IMAGE}
+            alt={`Coach ${COACH_NAME}`}
+            className="coach-image w-20 h-20 rounded-full object-cover mx-auto mb-6 border-4 border-white shadow-lg"
           />
         )}
 
         <AnimatePresence mode="wait">
           {state.step === 'welcome' && (
-            <WelcomeScreen onStart={nextStep} />
-          )}
-          
-          {state.step === 'form' && (
-            <h2 className="text-xl sm:text-2xl font-bold text-indigo-700 mb-4 text-center">Where should we send you your results?</h2>
+            <WelcomeScreen key="welcome" onStart={nextStep} />
           )}
           
           {state.step !== 'result' && state.step !== 'questions' && state.step !== 'gender' && state.step !== 'age' && state.step !== 'welcome' && state.step !== 'name' && state.step !== 'form' && (
-            <h1 className="quiz-title">Discover Your Career Confidence Level</h1>
+            <h1 key="quiz-title" className="quiz-title">{quizTitle}</h1>
           )}
           
           {state.step !== 'result' && state.step !== 'questions' && state.step !== 'form' && state.step !== 'gender' && state.step !== 'age' && state.step !== 'welcome' && state.step !== 'name' && (
-            <p className="quiz-subtitle">
-              Take this quiz to understand your professional self-confidence and get personalized tips! 😊
+            <p key="quiz-subtitle" className="quiz-subtitle">
+              {quizSubtitle}
             </p>
           )}
 
           {state.step === 'name' && (
             <NameInput
+              key="name-input"
               value={state.onboardingData.firstName}
               onChange={(name) => updateOnboarding({ firstName: name })}
               onNext={nextStep}
@@ -68,6 +77,7 @@ function App() {
 
           {state.step === 'gender' && (
             <GenderSelect
+              key="gender-select"
               value={state.onboardingData.gender}
               onChange={(gender) => updateOnboarding({ gender })}
               onNext={nextStep}
@@ -76,35 +86,35 @@ function App() {
 
           {state.step === 'age' && (
             <AgeSelect
+              key="age-select"
               value={state.onboardingData.ageGroup}
               onChange={(ageGroup) => updateOnboarding({ ageGroup })}
               onNext={nextStep}
+              gender={state.onboardingData.gender as 'male' | 'female'}
             />
           )}
 
           {state.step === 'questions' && (
-            <>
+            <div key="questions-container">
               <QuizProgress
                 currentQuestion={state.currentQuestion + 1}
-                totalQuestions={careerQuestions.length}
+                totalQuestions={typeQuestions.length}
               />
-              <QuizQuestion
-                key={state.currentQuestion}
+              <TypeQuizQuestion
+                key={`question-${state.currentQuestion}`}
                 question={{
-                  ...careerQuestions[state.currentQuestion],
-                  text: careerQuestions[state.currentQuestion].text.replace(
-                    '{firstName}',
-                    state.onboardingData.firstName
-                  )
+                  ...typeQuestions[state.currentQuestion],
+                  text: replaceNamePlaceholder(typeQuestions[state.currentQuestion].text)
                 }}
                 selectedAnswer={null}
                 onSelectAnswer={handleAnswer}
               />
-            </>
+            </div>
           )}
 
           {state.step === 'form' && (
             <LeadForm
+              key="lead-form"
               userData={userData}
               onSubmit={handleFormSubmit}
               onChange={handleFormChange}
@@ -112,10 +122,11 @@ function App() {
           )}
 
           {state.step === 'result' && result && (
-            <QuizResult
+            <TypeQuizResult
+              key="quiz-result"
               result={result}
               userData={userData}
-              score={calculateResult().score}
+              typeCounts={typeCounts}
             />
           )}
         </AnimatePresence>

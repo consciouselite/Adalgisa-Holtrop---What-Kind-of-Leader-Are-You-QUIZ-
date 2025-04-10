@@ -4,7 +4,7 @@ import { Question, PersonalityType } from '../types';
 export const quizTitle = "The Mind-Body Connection Assessment [QUIZ]";
 export const quizSubtitle = "Discover your somatic awareness score in just 3 minutes";
 
-export const questions: Question[] = [
+export const scoreQuestions: Question[] = [
   {
     id: 1,
     text: "When you experience stress, how aware are you of physical sensations in your body?",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
   }
 ];
 
-export const personalityTypes: PersonalityType[] = [
+export const scoreProfiles: PersonalityType[] = [
   {
     type: "Disconnection Zone",
     description: "You're experiencing significant separation between mind and body, which may be contributing to physical tension and emotional stress. The good news is that this awareness is the perfect starting point for transformation. Simple daily check-ins with your body can create remarkable shifts in your awareness.",
@@ -188,4 +188,4 @@ export const personalityTypes: PersonalityType[] = [
       "Integrate somatic awareness into creative expression"
     ]
   }
-];
+]; 

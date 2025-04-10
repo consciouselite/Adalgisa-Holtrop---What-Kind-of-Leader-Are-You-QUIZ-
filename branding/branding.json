@@ -1,0 +1,476 @@
+﻿{
+    "coach":  {
+                  "profilePicture":  "https://nrojbwxcqochzwhmmkql.supabase.co/storage/v1/object/sign/coaches-profile-images/Adalgisa%20Holtrop%20PP.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjb2FjaGVzLXByb2ZpbGUtaW1hZ2VzL0FkYWxnaXNhIEhvbHRyb3AgUFAuanBlZyIsImlhdCI6MTc0MzUxNTU3OCwiZXhwIjoxNzc1MDUxNTc4fQ.jwKlSeEiiMYvc2m5hWV-L45gnvvN0acuha5H_hFhZAs",
+                  "backstory":  {
+                                    "heroJourney":  {
+                                                        "transformationProcess":  "",
+                                                        "lessonsLearned":  "",
+                                                        "currentSuccessState":  "",
+                                                        "challengesFaced":  "",
+                                                        "startingPoint":  "",
+                                                        "whyHelpingOthers":  ""
+                                                    }
+                                },
+                  "socialLinks":  {
+                                      "whatsapp":  "",
+                                      "youtube":  "",
+                                      "instagram":  "",
+                                      "website":  "https://holtropcoaching.com/",
+                                      "email":  "dal@physics.unh.edu",
+                                      "tiktok":  ""
+                                  },
+                  "mission":  "To empower executives and professionals to unlock their full potential through personalized coaching, helping them achieve clarity, confidence, and exceptional leadership skills.",
+                  "targetAudience":  {
+                                         "limitingBeliefs":  "I don't have time to work on myself; I should already know how to handle these challenges; Asking for help shows weakness; My work-life balance can't be improved",
+                                         "wants":  "Greater clarity in decision-making; Better leadership presence; Work-life balance; Career advancement; Improved team management skills",
+                                         "fears":  "Career stagnation; Underperforming in leadership roles; Burnout; Making wrong strategic decisions; Losing credibility with team members",
+                                         "copingMechanism":  "Overworking; Micromanagement; Avoiding difficult conversations; Postponing important decisions; Isolating when stressed",
+                                         "objections":  {
+                                                            "skepticismBasedObjections":  {
+                                                                                              "category":  "",
+                                                                                              "commonStatements":  [
+
+                                                                                                                   ],
+                                                                                              "responseApproach":  ""
+                                                                                          },
+                                                            "timeBasedObjections":  {
+                                                                                        "category":  "",
+                                                                                        "commonStatements":  [
+
+                                                                                                             ],
+                                                                                        "responseApproach":  ""
+                                                                                    },
+                                                            "valueBasedObjections":  {
+                                                                                         "category":  "",
+                                                                                         "commonStatements":  [
+
+                                                                                                              ],
+                                                                                         "responseApproach":  ""
+                                                                                     },
+                                                            "capabilityBasedObjections":  {
+                                                                                              "category":  "",
+                                                                                              "commonStatements":  [
+
+                                                                                                                   ],
+                                                                                              "responseApproach":  ""
+                                                                                          }
+                                                        },
+                                         "enemies":  "Workplace politics; Overwhelming responsibilities; Rapidly changing industry demands; Imposter syndrome; Competitive work environments",
+                                         "dreams":  "Becoming a highly respected leader; Achieving both professional success and personal fulfillment; Building high-performing teams; Making meaningful impact in their organization",
+                                         "frustrations":  "Feeling stuck in career progression; Difficulty balancing competing priorities; Lack of strategic clarity; Communication challenges with team members; Stress management issues"
+                                     },
+                  "habits":  {
+                                 "suggestions":  [
+                                                     {
+                                                         "category":  "leadership",
+                                                         "name":  "Daily Leadership Reflection",
+                                                         "id":  "leadership_reflection",
+                                                         "description":  "Take 10 minutes at the end of each day to reflect on your leadership decisions and identify opportunities for improvement."
+                                                     },
+                                                     {
+                                                         "category":  "leadership",
+                                                         "name":  "Team Recognition Practice",
+                                                         "id":  "team_recognition",
+                                                         "description":  "Acknowledge at least one team member's contribution each day with specific, meaningful feedback."
+                                                     },
+                                                     {
+                                                         "category":  "productivity",
+                                                         "name":  "Priority Focus Block",
+                                                         "id":  "priority_focus",
+                                                         "description":  "Schedule a 90-minute distraction-free block each day to work on your most strategic priorities."
+                                                     },
+                                                     {
+                                                         "category":  "productivity",
+                                                         "name":  "Weekly Planning Session",
+                                                         "id":  "weekly_planning",
+                                                         "description":  "Set aside 30 minutes every Monday to plan your week, aligning tasks with strategic goals."
+                                                     },
+                                                     {
+                                                         "category":  "mindfulness",
+                                                         "name":  "Breathing Break",
+                                                         "id":  "breathing_break",
+                                                         "description":  "Take three 2-minute breaks throughout the day for deep breathing to reduce stress and improve focus."
+                                                     },
+                                                     {
+                                                         "category":  "mindfulness",
+                                                         "name":  "Meeting Mindfulness",
+                                                         "id":  "meeting_mindfulness",
+                                                         "description":  "Begin meetings with a brief moment of centering to ensure everyone is present and focused."
+                                                     },
+                                                     {
+                                                         "category":  "growth",
+                                                         "name":  "Learning Time",
+                                                         "id":  "learning_time",
+                                                         "description":  "Dedicate 20 minutes daily to professional development through reading, courses, or podcasts."
+                                                     },
+                                                     {
+                                                         "category":  "growth",
+                                                         "name":  "Feedback Collection",
+                                                         "id":  "feedback_collection",
+                                                         "description":  "Actively seek feedback from a colleague or team member weekly to foster continuous improvement."
+                                                     },
+                                                     {
+                                                         "category":  "balance",
+                                                         "name":  "Work Boundary Setting",
+                                                         "id":  "work_boundaries",
+                                                         "description":  "Establish clear start and end times to your workday and honor them consistently."
+                                                     },
+                                                     {
+                                                         "category":  "balance",
+                                                         "name":  "Personal Recharge Activity",
+                                                         "id":  "personal_recharge",
+                                                         "description":  "Schedule and protect time for at least one activity each week that energizes you outside of work."
+                                                     }
+                                                 ],
+                                 "categories":  [
+                                                    {
+                                                        "name":  "Leadership",
+                                                        "id":  "leadership",
+                                                        "emoji":  "🧠"
+                                                    },
+                                                    {
+                                                        "name":  "Productivity",
+                                                        "id":  "productivity",
+                                                        "emoji":  "🎯"
+                                                    },
+                                                    {
+                                                        "name":  "Mindfulness",
+                                                        "id":  "mindfulness",
+                                                        "emoji":  "😌"
+                                                    },
+                                                    {
+                                                        "name":  "Growth",
+                                                        "id":  "growth",
+                                                        "emoji":  "🤓"
+                                                    },
+                                                    {
+                                                        "name":  "Balance",
+                                                        "id":  "balance",
+                                                        "emoji":  "😊"
+                                                    }
+                                                ]
+                             },
+                  "name":  "Adalgisa Holtrop",
+                  "brand":  {
+                                "supportingColors":  {
+                                                         "error":  {
+                                                                       "dark":  "#B91C1C",
+                                                                       "default":  "#EF4444",
+                                                                       "light":  "#FCA5A5"
+                                                                   },
+                                                         "warning":  {
+                                                                         "dark":  "#B45309",
+                                                                         "default":  "#F59E0B",
+                                                                         "light":  "#FCD34D"
+                                                                     },
+                                                         "info":  {
+                                                                      "dark":  "#1E40AF",
+                                                                      "default":  "#3B82F6",
+                                                                      "light":  "#93C5FD"
+                                                                  },
+                                                         "success":  {
+                                                                         "dark":  "#15803D",
+                                                                         "default":  "#22C55E",
+                                                                         "light":  "#86EFAC"
+                                                                     }
+                                                     },
+                                "borderRadius":  {
+                                                     "md":  "0.375rem",
+                                                     "lg":  "0.5rem",
+                                                     "xl":  "0.75rem",
+                                                     "none":  "0",
+                                                     "sm":  "0.125rem",
+                                                     "full":  "9999px",
+                                                     "2xl":  "1rem"
+                                                 },
+                                "spacing":  {
+                                                "16":  "4rem",
+                                                "12":  "3rem",
+                                                "3":  "0.75rem",
+                                                "20":  "5rem",
+                                                "4":  "1rem",
+                                                "2":  "0.5rem",
+                                                "1":  "0.25rem",
+                                                "0":  "0",
+                                                "24":  "6rem",
+                                                "6":  "1.5rem",
+                                                "8":  "2rem"
+                                            },
+                                "shadows":  {
+                                                "sm":  "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+                                                "lg":  "0 10px 15px -3px rgb(0 0 0 / 0.1)",
+                                                "md":  "0 4px 6px -1px rgb(0 0 0 / 0.1)",
+                                                "xl":  "0 20px 25px -5px rgb(0 0 0 / 0.1)"
+                                            },
+                                "typography":  {
+                                                   "heading":  {
+                                                                   "weights":  {
+                                                                                   "bold":  700,
+                                                                                   "semibold":  600,
+                                                                                   "medium":  500
+                                                                               },
+                                                                   "usage":  "Section headers, navigation, card titles",
+                                                                   "fontFamily":  "Inter, sans-serif"
+                                                               },
+                                                   "body":  {
+                                                                "weights":  {
+                                                                                "regular":  400,
+                                                                                "medium":  500,
+                                                                                "semibold":  600
+                                                                            },
+                                                                "usage":  "Body text, UI elements, buttons",
+                                                                "fontFamily":  "Inter, sans-serif"
+                                                            },
+                                                   "scale":  {
+                                                                 "heading":  {
+                                                                                 "h2":  "1.5rem",
+                                                                                 "h4":  "1.125rem",
+                                                                                 "h1":  "1.875rem",
+                                                                                 "h3":  "1.25rem"
+                                                                             },
+                                                                 "body":  {
+                                                                              "large":  "1.125rem",
+                                                                              "small":  "0.875rem",
+                                                                              "xs":  "0.75rem",
+                                                                              "base":  "1rem"
+                                                                          },
+                                                                 "display":  {
+                                                                                 "2":  "2.25rem",
+                                                                                 "1":  "3rem"
+                                                                             }
+                                                             },
+                                                   "display":  {
+                                                                   "weights":  {
+                                                                                   "bold":  700
+                                                                               },
+                                                                   "usage":  "Hero sections, major entry points, impactful headlines",
+                                                                   "fontFamily":  "Crimson Pro, serif"
+                                                               },
+                                                   "lineHeight":  {
+                                                                      "tight":  "1.25",
+                                                                      "relaxed":  "1.75",
+                                                                      "normal":  "1.5"
+                                                                  }
+                                               },
+                                "gradients":  {
+                                                  "primary":  {
+                                                                  "card":  {
+                                                                               "background":  "linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%)",
+                                                                               "hover":  "linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 100%)"
+                                                                           },
+                                                                  "hero":  {
+                                                                               "background":  "linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)",
+                                                                               "overlay":  "linear-gradient(135deg, rgba(30, 58, 138, 0.8) 0%, rgba(59, 130, 246, 0.9) 100%)"
+                                                                           }
+                                                              },
+                                                  "secondary":  {
+                                                                    "subtle":  {
+                                                                                   "background":  "linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)",
+                                                                                   "hover":  "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)"
+                                                                               }
+                                                                }
+                                              },
+                                "colorSystem":  {
+                                                    "accent":  {
+                                                                   "200":  "#C7D2FE",
+                                                                   "300":  "#A5B4FC",
+                                                                   "700":  "#4338CA",
+                                                                   "hover":  "#4F46E5",
+                                                                   "name":  "purple",
+                                                                   "600":  "#4F46E5",
+                                                                   "100":  "#E0E7FF",
+                                                                   "500":  "#6366F1",
+                                                                   "400":  "#818CF8"
+                                                               },
+                                                    "secondary":  {
+                                                                      "200":  "#F1F5F9",
+                                                                      "300":  "#E2E8F0",
+                                                                      "700":  "#475569",
+                                                                      "800":  "#27272A",
+                                                                      "name":  "slate",
+                                                                      "600":  "#64748B",
+                                                                      "100":  "#F8FAFC",
+                                                                      "500":  "#94A3B8",
+                                                                      "400":  "#CBD5E1",
+                                                                      "900":  "#020617"
+                                                                  },
+                                                    "primary":  {
+                                                                    "200":  "#E0E7FF",
+                                                                    "300":  "#C7D2FE",
+                                                                    "700":  "#1E3A8A",
+                                                                    "800":  "#1E3B8A",
+                                                                    "name":  "navy blue",
+                                                                    "600":  "#1E40AF",
+                                                                    "100":  "#EEF2FF",
+                                                                    "500":  "#1E3A8A",
+                                                                    "400":  "#A5B4FC",
+                                                                    "900":  "#1E3D8A"
+                                                                },
+                                                    "base":  {
+                                                                 "default":  "#FFFFFF",
+                                                                 "name":  "white"
+                                                             }
+                                                },
+                                "componentTokens":  {
+                                                        "input":  {
+                                                                      "placeholder":  "var(--secondary-500)",
+                                                                      "focus":  {
+                                                                                    "border":  "var(--primary-500)",
+                                                                                    "ring":  "var(--primary-500)"
+                                                                                },
+                                                                      "background":  "white",
+                                                                      "border":  "var(--secondary-300)",
+                                                                      "text":  "var(--secondary-900)"
+                                                                  },
+                                                        "card":  {
+                                                                     "radius":  "var(--radius-lg)",
+                                                                     "background":  "white",
+                                                                     "border":  "var(--secondary-200)",
+                                                                     "shadow":  "var(--shadow-md)",
+                                                                     "padding":  "var(--spacing-6)"
+                                                                 },
+                                                        "button":  {
+                                                                       "accent":  {
+                                                                                      "fontSize":  "var(--fontSize-base)",
+                                                                                      "fontWeight":  "var(--fontWeight-medium)",
+                                                                                      "text":  "white",
+                                                                                      "paddingVertical":  "var(--spacing-2)",
+                                                                                      "background":  "var(--accent-500)",
+                                                                                      "hover":  "var(--accent-600)",
+                                                                                      "active":  "var(--accent-700)",
+                                                                                      "borderRadius":  "var(--borderRadius-md)",
+                                                                                      "paddingHorizontal":  "var(--spacing-4)"
+                                                                                  },
+                                                                       "secondary":  {
+                                                                                         "paddingHorizontal":  "var(--spacing-4)",
+                                                                                         "fontSize":  "var(--fontSize-base)",
+                                                                                         "fontWeight":  "var(--fontWeight-medium)",
+                                                                                         "text":  "var(--primary-500)",
+                                                                                         "border":  "var(--primary-500)",
+                                                                                         "background":  "white",
+                                                                                         "hover":  "var(--primary-50)",
+                                                                                         "active":  "var(--primary-100)",
+                                                                                         "borderRadius":  "var(--borderRadius-md)",
+                                                                                         "paddingVertical":  "var(--spacing-2)"
+                                                                                     },
+                                                                       "primary":  {
+                                                                                       "paddingHorizontal":  "var(--spacing-4)",
+                                                                                       "fontSize":  "var(--fontSize-base)",
+                                                                                       "fontWeight":  "var(--fontWeight-medium)",
+                                                                                       "text":  "white",
+                                                                                       "disabled":  "var(--primary-300)",
+                                                                                       "background":  "var(--primary-500)",
+                                                                                       "hover":  "var(--primary-600)",
+                                                                                       "active":  "var(--primary-700)",
+                                                                                       "borderRadius":  "var(--borderRadius-md)",
+                                                                                       "paddingVertical":  "var(--spacing-2)"
+                                                                                   }
+                                                                   }
+                                                    }
+                            },
+                  "archetype":  "Therapist",
+                  "quizTopics":  [
+                                    {
+                                        "title": "What Kind of Leader Are You? (5-Minute Quiz)",
+                                        "framework": "Type",
+                                        "description": "Discover your natural leadership style and unlock your hidden strengths in just 5 questions!",
+                                        "ratings": {
+                                            "shareability": 9,
+                                            "thatsSOMe": 9,
+                                            "entertainment": 8,
+                                            "ahaMoment": 9,
+                                            "strategicFit": 10,
+                                            "cognitiveEase": 10
+                                        }
+                                    },
+                                    {
+                                        "title": "What's Your Work-Life Balance Type? (2-Minute Quiz)",
+                                        "framework": "Type",
+                                        "description": "Find out how you naturally balance work and life, and get personalized tips for less stress and more success!",
+                                        "ratings": {
+                                            "shareability": 9,
+                                            "thatsSOMe": 10,
+                                            "entertainment": 8,
+                                            "ahaMoment": 9,
+                                            "strategicFit": 9,
+                                            "cognitiveEase": 10
+                                        }
+                                    },
+                                    {
+                                        "title": "Are You Making These 5 Decision-Making Mistakes?",
+                                        "framework": "Killer",
+                                        "description": "Even smart leaders fall into these common traps. How many are slowing your success?",
+                                        "ratings": {
+                                            "shareability": 8,
+                                            "thatsSOMe": 9,
+                                            "entertainment": 7,
+                                            "ahaMoment": 10,
+                                            "strategicFit": 10,
+                                            "cognitiveEase": 9
+                                        }
+                                    },
+                                    {
+                                        "title": "Are You Accidentally Burning Out Your Team?",
+                                        "framework": "Killer",
+                                        "description": "Spot the subtle signs you might be pushing too hard (before your best people quit!)",
+                                        "ratings": {
+                                            "shareability": 9,
+                                            "thatsSOMe": 8,
+                                            "entertainment": 7,
+                                            "ahaMoment": 10,
+                                            "strategicFit": 9,
+                                            "cognitiveEase": 9
+                                        }
+                                    },
+                                    {
+                                        "title": "How Well Do You Handle Workplace Stress? (3-Minute Quiz)",
+                                        "framework": "Score",
+                                        "description": "Test your stress response against top performers and discover your personal resilience score!",
+                                        "ratings": {
+                                            "shareability": 8,
+                                            "thatsSOMe": 9,
+                                            "entertainment": 8,
+                                            "ahaMoment": 9,
+                                            "strategicFit": 9,
+                                            "cognitiveEase": 10
+                                        }
+                                    },
+                                    {
+                                        "title": "How Strong Is Your Leadership Presence?",
+                                        "framework": "Score",
+                                        "description": "Rate your executive presence against industry benchmarks and find your quick-win opportunities!",
+                                        "ratings": {
+                                            "shareability": 9,
+                                            "thatsSOMe": 8,
+                                            "entertainment": 7,
+                                            "ahaMoment": 10,
+                                            "strategicFit": 10,
+                                            "cognitiveEase": 9
+                                        }
+                                    }
+                                 ],
+                  "proof":  {
+                                "testimonials":  [
+                                                     {
+                                                         "background":  "",
+                                                         "name":  "",
+                                                         "result":  "",
+                                                         "text":  ""
+                                                     }
+                                                 ],
+                                "currentLifestyleProof":  [
+
+                                                          ],
+                                "celebrityEndorsements":  [
+                                                              {
+                                                                  "platform":  "",
+                                                                  "name":  "",
+                                                                  "text":  ""
+                                                              }
+                                                          ],
+                                "coachResults":  [
+
+                                                 ]
+                            }
+              }
+}

@@ -1,0 +1,478 @@
+{
+  "coach": {
+    "name": "Coach Pamela",
+    "profilePicture": "https://zcrrryrpcibqtdrzetbk.supabase.co/storage/v1/object/public/images/Coaches%20Profile%20Pictures/Pamela.jpeg",
+    "mission": "I will help you achieve your potential with mindful habits",
+    "habits": {
+      "categories": [
+        { "id": "mindfulness", "name": "Mindfulness", "emoji": "🧘" },
+        { "id": "health", "name": "Health & Wellness", "emoji": "🏃" },
+        { "id": "productivity", "name": "Productivity", "emoji": "⚡" },
+        { "id": "growth", "name": "Personal Growth", "emoji": "🌱" },
+        { "id": "relationships", "name": "Relationships", "emoji": "❤️" },
+        { "id": "lifestyle", "name": "Lifestyle", "emoji": "🌟" }
+      ],
+      "suggestions": [
+        {
+          "id": "morning-meditation",
+          "name": "Morning Meditation",
+          "category": "mindfulness",
+          "description": "Start each day with 10 minutes of mindful meditation to center yourself"
+        },
+        {
+          "id": "gratitude-journal",
+          "name": "Gratitude Practice",
+          "category": "mindfulness",
+          "description": "Write down three things you're grateful for each evening"
+        },
+        {
+          "id": "daily-exercise",
+          "name": "Daily Movement",
+          "category": "health",
+          "description": "Engage in 30 minutes of physical activity you enjoy"
+        },
+        {
+          "id": "mindful-eating",
+          "name": "Mindful Eating",
+          "category": "health",
+          "description": "Practice eating without distractions for at least one meal daily"
+        },
+        {
+          "id": "reading-time",
+          "name": "Daily Reading",
+          "category": "growth",
+          "description": "Read for 20 minutes to expand your knowledge and mindset"
+        },
+        {
+          "id": "connection-call",
+          "name": "Meaningful Connection",
+          "category": "relationships",
+          "description": "Reach out to someone you care about each day"
+        }
+      ]
+    },
+    "quizTopics": [
+      {
+        "framework": "Killer",
+        "title": "5 Hidden Mind-Body Disconnection Mistakes That Keep You Stuck in Physical Pain",
+        "description": "Discover the subtle yet powerful ways you might be blocking your body's natural healing capabilities and learn how to release these patterns for greater physical freedom.",
+        "targetProblem": "Difficulty with traditional meditation, physical tension and chronic pain",
+        "callToAction": "Uncover Your Mind-Body Disconnections",
+        "resultBenefit": "Personalized strategies to reverse harmful patterns and reconnect with your body's wisdom",
+        "idealFollowUp": "Mindful Motion introductory session"
+      },
+      {
+        "framework": "Type",
+        "title": "What's Your Movement Meditation Archetype?",
+        "description": "Discover your unique mind-body connection style and how it influences your healing journey, stress response, and emotional processing.",
+        "types": [
+          {
+            "name": "Fluid Integrator",
+            "description": "You naturally process emotions through flowing movements, finding peace in gentle, continuous motion.",
+            "strengths": "Adaptability, emotional awareness, stress release through movement",
+            "challenges": "May struggle with stillness practices, can become scattered without structure",
+            "recommendedPractices": ["Tai Chi", "Flowing Yoga", "Dance Meditation"]
+          },
+          {
+            "name": "Grounded Processor",
+            "description": "You connect best through steady, earth-centered practices that emphasize stability and presence.",
+            "strengths": "Consistency, physical awareness, ability to stay present in discomfort",
+            "challenges": "May hold tension in the body, can resist necessary change and adaptation",
+            "recommendedPractices": ["Standing Meditation", "Walking Practices", "Gentle Strength Training"]
+          },
+          {
+            "name": "Rhythmic Releaser",
+            "description": "You find healing through repetitive, rhythmic movements that create a meditative state.",
+            "strengths": "Finding flow states easily, releasing trauma through rhythm, natural consistency",
+            "challenges": "May avoid deeper emotional processing, can become dependent on specific patterns",
+            "recommendedPractices": ["Breath-synchronized Movement", "Drumming Meditation", "Repetitive Walking"]
+          },
+          {
+            "name": "Intuitive Explorer",
+            "description": "You heal through spontaneous, intuitive movements guided by inner wisdom.",
+            "strengths": "Deep self-trust, creative problem-solving, adaptive healing approaches",
+            "challenges": "May struggle with structured practices, inconsistency in regular practice",
+            "recommendedPractices": ["Intuitive Dance", "Expressive Movement Therapy", "Body Scanning"]
+          }
+        ],
+        "targetProblem": "Difficulty finding the right mindfulness approach for your unique needs",
+        "callToAction": "Discover Your Movement Archetype",
+        "resultBenefit": "Personalized mindful movement practices aligned with your natural tendencies"
+      },
+      {
+        "framework": "Score",
+        "title": "The Mind-Body Connection Assessment: What's Your Somatic Awareness Score?",
+        "description": "Measure your current level of mind-body integration and discover targeted practices to strengthen your somatic awareness.",
+        "scoreRanges": [
+          {
+            "range": "0-40",
+            "level": "Disconnection Zone",
+            "description": "You're experiencing significant separation between mind and body, which may be contributing to physical tension and emotional stress.",
+            "recommendations": "Begin with simple body scan practices and gentle attention to physical sensations"
+          },
+          {
+            "range": "41-70",
+            "level": "Awareness Building",
+            "description": "You have foundational awareness but still miss important body signals during stress or emotional challenges.",
+            "recommendations": "Focus on breath-body connection practices and emotional sensation mapping"
+          },
+          {
+            "range": "71-90",
+            "level": "Integrated Presence",
+            "description": "You maintain good mind-body connection in most situations but can deepen this awareness for healing.",
+            "recommendations": "Explore subtle energy practices and intentional movement meditation"
+          },
+          {
+            "range": "91-100",
+            "level": "Embodied Wisdom",
+            "description": "You have exceptional mind-body integration and can use this foundation for advanced healing practices.",
+            "recommendations": "Deepen your practice through teaching others and exploring nuanced somatic release techniques"
+          }
+        ],
+        "targetProblem": "Uncertainty about your current mind-body connection level and how to improve it",
+        "callToAction": "Measure Your Somatic Awareness",
+        "resultBenefit": "A personalized roadmap to deepen your mind-body connection based on your current level"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://instagram.com/coach1",
+      "youtube": "https://youtube.com/coach1",
+      "whatsapp": "https://whatsapp.com/coach1",
+      "email": "coach1@example.com",
+      "tiktok": "https://tiktok.com/@coach1"
+    },
+    "targetAudience": {
+      "wants": "Finding peace in movement, releasing trauma through gentle practices, achieving mind-body connection",
+      "frustrations": "Difficulty with traditional meditation, physical tension and chronic pain, lasting effects of trauma",
+      "objections": {
+        "timeBasedObjections": {
+          "category": "Time-Based Objections",
+          "commonStatements": [
+            "I don't have time to add another practice to my day",
+            "My schedule is already overwhelmed with self-care attempts",
+            "I can't commit to a regular practice with my busy schedule",
+            "I've tried meditation before but couldn't stick with it due to time constraints"
+          ],
+          "responseApproach": "Emphasize the integration of mindful movements into existing routines rather than adding entirely new time blocks, highlight the efficiency of movement-based practices compared to traditional meditation"
+        },
+        "skepticismBasedObjections": {
+          "category": "Skepticism-Based Objections",
+          "commonStatements": [
+            "I've tried meditation before and it didn't help my trauma",
+            "Movement practices sound too simple to address my deep-rooted issues",
+            "I doubt mindfulness can really help with physical pain",
+            "This sounds like another wellness trend without substance"
+          ],
+          "responseApproach": "Share specific case studies and testimonials from similar clients, explain the neurological basis for mindful movement, offer gentle entry points to experience benefits without full commitment"
+        },
+        "capabilityBasedObjections": {
+          "category": "Capability-Based Objections",
+          "commonStatements": [
+            "My body is too tense/painful for movement practices",
+            "I can't meditate because my mind is always racing",
+            "I've tried mindfulness before but I'm 'bad' at it",
+            "My trauma feels too overwhelming to address through any practice"
+          ],
+          "responseApproach": "Emphasize the personalized, trauma-informed approach, highlight the 'no wrong way' philosophy, share Coach Pamela's personal journey through fibromyalgia and movement limitations"
+        },
+        "valueBasedObjections": {
+          "category": "Value-Based Objections",
+          "commonStatements": [
+            "I've already invested in other healing modalities without results",
+            "I'm not sure if the investment will truly lead to lasting change",
+            "I could just follow free YouTube videos for movement practices",
+            "Why is guided mindful movement better than my current physical therapy?"
+          ],
+          "responseApproach": "Articulate the unique value of personalized, trauma-informed mindful movement, highlight the efficiency of targeted practices versus generic approaches, emphasize the compounding benefits of consistent practice with proper guidance"
+        }
+      },
+      "dreams": "Living free from physical and emotional pain, finding peace in their body, helping others heal",
+      "fears": "Fear of confronting trauma, fear of physical movement, fear of vulnerability",
+      "enemies": "Traditional meditation pressure, chronic stress, disconnection from body",
+      "copingMechanism": "Avoiding movement, pushing through pain, disconnecting from body sensations",
+      "limitingBeliefs": "My trauma is permanent, I'm not good at meditation, My body can't heal"
+    },
+    "backstory": {
+      "heroJourney": {
+        "startingPoint": "Personal struggle with fibromyalgia and traditional meditation practices",
+        "challengesFaced": "Physical pain, emotional trauma, inability to find peace in stillness",
+        "transformationProcess": "Discovering the power of mindful movement, developing Mindful Motion practice",
+        "currentSuccessState": "Thriving practice helping others heal through movement, living pain-free",
+        "lessonsLearned": "Movement can be meditation, healing happens at your own pace, the body holds wisdom",
+        "whyHelpingOthers": "Passionate about making mindfulness accessible through movement for those who struggle with traditional practices"
+      }
+    },
+    "proof": {
+      "testimonials": [
+        {
+          "name": "Sarah Johnson",
+          "text": "Mindful Motion transformed my relationship with meditation. As someone who couldn't sit still, finding peace through movement has been life-changing.",
+          "background": "Former meditation skeptic",
+          "result": "Now practices daily movement meditation"
+        },
+        {
+          "name": "Michael Chen",
+          "text": "After years of trauma, Pamela's somatic release approach helped me reconnect with my body in a gentle, safe way.",
+          "background": "Trauma survivor",
+          "result": "Significant reduction in anxiety and physical tension"
+        }
+      ],
+      "coachResults": [
+        "Developed unique Mindful Motion methodology",
+        "Helped 100+ clients find peace through movement",
+        "Successful recovery from personal fibromyalgia journey"
+      ],
+      "celebrityEndorsements": [
+        {
+          "name": "Dr. Sarah Miller",
+          "text": "Pamela's approach to mindful movement is revolutionizing how we think about meditation and trauma healing.",
+          "platform": "Psychology Today Blog"
+        },
+        {
+          "name": "James Thompson",
+          "text": "The Mindful Motion technique is a breakthrough in accessible mindfulness practice.",
+          "platform": "Mindfulness Summit"
+        },
+        {
+          "name": "Lisa Chen",
+          "text": "Pamela's work bridges the gap between traditional meditation and trauma-informed movement practices.",
+          "platform": "Wellness Podcast Host"
+        }
+      ],
+      "currentLifestyleProof": [
+        "Leading workshops and presentations internationally",
+        "Developing apprenticeship program for Mindful Motion",
+        "Creating accessible online courses for global reach"
+      ]
+    },
+    "brand": {
+        "colorSystem": {
+          "base": {
+            "name": "white",
+            "default": "#FFFFFF"
+          },
+          "primary": {
+            "name": "Rose",
+            "100": "#F5E6EB",
+            "200": "#E7C4D5",
+            "300": "#D9A1BF",
+            "400": "#CC7FA8",
+            "500": "#C05D92",
+            "600": "#940E49",
+            "700": "#680A36",
+            "800": "#3C061D",
+            "900": "#100208"
+          },
+          "secondary": {
+            "name": "slate",
+            "100": "#F8FAFC",
+            "200": "#F1F5F9",
+            "300": "#E2E8F0",
+            "400": "#CBD5E1",
+            "500": "#94A3B8",
+            "600": "#64748B",
+            "700": "#475569",
+            "800": "#27272A",
+            "900": "#020617"
+          },
+          "accent": {
+            "name": "Pink",
+            "100": "#FCE7F0",
+            "200": "#F8CFE1",
+            "300": "#F4B7D2",
+            "400": "#F09FC3",
+            "500": "#E03881",
+            "600": "#C82D6E",
+            "700": "#B0235B",
+            "hover": "#982048"
+          }
+        },
+          "supportingColors": {
+            "content": {
+              "concept": {
+                "default": "#EC407A",
+                "light": "#FCE4EC",
+                "hsl": {
+                  "default": "336 75% 65%",
+                  "light": "336 75% 95%"
+                }
+              }
+            },
+            "success": {
+              "default": "#4CAF50",
+              "light": "#C8E6C9",
+              "dark": "#388E3C"
+            },
+          "warning": {
+            "default": "#FFC107",
+            "light": "#FFF8E1",
+            "dark": "#FFA000"
+          },
+          "error": {
+            "default": "#F44336",
+            "light": "#FFEBEE",
+            "dark": "#D32F2F"
+          },
+          "info": {
+            "default": "#2196F3",
+            "light": "#E3F2FD",
+            "dark": "#1976D2"
+          }
+        },
+        "gradients": {
+          "primary": {
+            "hero": {
+              "background": "linear-gradient(90deg, #940E49 0%, #C05D92 100%)",
+              "overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #940E49 100%)"
+            },
+            "card": {
+              "background": "linear-gradient(90deg, #F5E6EB 0%, #E7C4D5 100%)",
+              "hover": "linear-gradient(90deg, #E7C4D5 0%, #D9A1BF 100%)"
+            }
+          },
+          "secondary": {
+            "subtle": {
+              "background": "linear-gradient(90deg, #F8FAFC 0%, #F1F5F9 100%)",
+              "hover": "linear-gradient(90deg, #F1F5F9 0%, #E2E8F0 100%)"
+            }
+          }
+        },
+        "typography": {
+          "display": {
+            "fontFamily": "Montserrat",
+            "weights": {
+              "bold": 700
+            },
+            "usage": "Hero sections, major entry points, impactful headlines"
+          },
+          "heading": {
+            "fontFamily": "Montserrat",
+            "weights": {
+              "medium": 500,
+              "semibold": 600,
+              "bold": 700
+            },
+            "usage": "Section headers, navigation, card titles"
+          },
+          "body": {
+            "fontFamily": "Montserrat",
+            "weights": {
+              "regular": 400,
+              "medium": 500,
+              "semibold": 600
+            },
+            "usage": "Body text, UI elements, buttons"
+          },
+          "scale": {
+            "display": {
+              "1": "3rem",
+              "2": "2.25rem"
+            },
+            "heading": {
+              "h1": "1.875rem",
+              "h2": "1.5rem",
+              "h3": "1.25rem",
+              "h4": "1.125rem"
+            },
+            "body": {
+              "large": "1.125rem",
+              "base": "1rem",
+              "small": "0.875rem",
+              "xs": "0.75rem"
+            }
+          },
+          "lineHeight": {
+            "tight": "1.25",
+            "normal": "1.5",
+            "relaxed": "1.75"
+          }
+        },
+        "spacing": {
+          "0": "0",
+          "1": "0.25rem",
+          "2": "0.5rem",
+          "3": "0.75rem",
+          "4": "1rem",
+          "6": "1.5rem",
+          "8": "2rem",
+          "12": "3rem",
+          "16": "4rem",
+          "20": "5rem",
+          "24": "6rem"
+        },
+        "borderRadius": {
+          "none": "0",
+          "sm": "0.125rem",
+          "md": "0.375rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "2xl": "1rem",
+          "full": "9999px"
+        },
+        "shadows": {
+          "sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+          "md": "0 4px 6px -1px rgb(0 0 0 / 0.1)",
+          "lg": "0 10px 15px -3px rgb(0 0 0 / 0.1)",
+          "xl": "0 20px 25px -5px rgb(0 0 0 / 0.1)"
+        },
+        "componentTokens": {
+          "button": {
+            "primary": {
+              "background": "var(--primary-500)",
+              "text": "white",
+              "hover": "var(--primary-600)",
+              "active": "var(--primary-700)",
+              "disabled": "var(--primary-300)",
+              "borderRadius": "var(--borderRadius-md)",
+              "paddingVertical": "var(--spacing-2)",
+              "paddingHorizontal": "var(--spacing-4)",
+              "fontSize": "var(--fontSize-base)",
+              "fontWeight": "var(--fontWeight-medium)"
+            },
+            "secondary": {
+              "background": "white",
+              "text": "var(--primary-500)",
+              "border": "var(--primary-500)",
+              "hover": "var(--primary-50)",
+              "active": "var(--primary-100)",
+              "borderRadius": "var(--borderRadius-md)",
+              "paddingVertical": "var(--spacing-2)",
+              "paddingHorizontal": "var(--spacing-4)",
+              "fontSize": "var(--fontSize-base)",
+              "fontWeight": "var(--fontWeight-medium)"
+            },
+            "accent": {
+              "background": "var(--accent-500)",
+              "text": "white",
+              "hover": "var(--accent-600)",
+              "active": "var(--accent-700)",
+              "borderRadius": "var(--borderRadius-md)",
+              "paddingVertical": "var(--spacing-2)",
+              "paddingHorizontal": "var(--spacing-4)",
+              "fontSize": "var(--fontSize-base)",
+              "fontWeight": "var(--fontWeight-medium)"
+            }
+          },
+          "card": {
+            "background": "white",
+            "border": "var(--secondary-200)",
+            "shadow": "var(--shadow-md)",
+            "radius": "var(--radius-lg)",
+            "padding": "var(--spacing-6)"
+          },
+          "input": {
+            "background": "white",
+            "border": "var(--secondary-300)",
+            "text": "var(--secondary-900)",
+            "placeholder": "var(--secondary-500)",
+            "focus": {
+              "ring": "var(--primary-500)",
+              "border": "var(--primary-500)"
+            }
+          }
+        }
+      }
+  
+  
+  }
+}

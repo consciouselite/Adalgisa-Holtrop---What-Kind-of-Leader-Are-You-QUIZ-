@@ -1,3 +1,213 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base colors */
+    --white: #FFFFFF;
+    
+    /* Primary colors - Navy Blue */
+    --primary-50: #F8FAFF;
+    --primary-100: #EEF2FF;
+    --primary-200: #E0E7FF;
+    --primary-300: #C7D2FE;
+    --primary-400: #A5B4FC;
+    --primary-500: #1E3A8A;
+    --primary-600: #1E40AF;
+    --primary-700: #1E3A8A;
+    --primary-800: #1E3B8A;
+    --primary-900: #1E3D8A;
+    
+    /* Secondary colors - Slate */
+    --secondary-50: #F8FAFC;
+    --secondary-100: #F8FAFC;
+    --secondary-200: #F1F5F9;
+    --secondary-300: #E2E8F0;
+    --secondary-400: #CBD5E1;
+    --secondary-500: #94A3B8;
+    --secondary-600: #64748B;
+    --secondary-700: #475569;
+    --secondary-800: #27272A;
+    --secondary-900: #020617;
+    
+    /* Accent colors - Purple */
+    --accent-50: #F5F3FF;
+    --accent-100: #E0E7FF;
+    --accent-200: #C7D2FE;
+    --accent-300: #A5B4FC;
+    --accent-400: #818CF8;
+    --accent-500: #6366F1;
+    --accent-600: #4F46E5;
+    --accent-700: #4338CA;
+    --accent-hover: #4F46E5;
+
+    /* Supporting colors */
+    --success-light: #86EFAC;
+    --success: #22C55E;
+    --success-dark: #15803D;
+
+    --warning-light: #FCD34D;
+    --warning: #F59E0B;
+    --warning-dark: #B45309;
+
+    --error-light: #FCA5A5;
+    --error: #EF4444;
+    --error-dark: #B91C1C;
+
+    --info-light: #93C5FD;
+    --info: #3B82F6;
+    --info-dark: #1E40AF;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(30, 58, 138, 0.8) 0%, rgba(59, 130, 246, 0.9) 100%);
+    --gradient-card: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+    --gradient-card-hover: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 100%);
+    --gradient-subtle: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    --gradient-subtle-hover: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    
+    /* Typography */
+    --font-family-display: 'Crimson Pro', serif;
+    --font-family-heading: 'Inter', sans-serif;
+    --font-family-body: 'Inter', sans-serif;
+    
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Font Sizes */
+    --font-size-display-1: 3rem;
+    --font-size-display-2: 2.25rem;
+    --font-size-h1: 1.875rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.25rem;
+    --font-size-h4: 1.125rem;
+    --font-size-large: 1.125rem;
+    --font-size-base: 1rem;
+    --font-size-small: 0.875rem;
+    --font-size-xs: 0.75rem;
+    
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Spacing */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    
+    /* Border Radius */
+    --radius-none: 0;
+    --radius-sm: 0.125rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    
+    /* Coach Info */
+    --coach-name: "Adalgisa Holtrop";
+    --coach-profile-image: "https://nrojbwxcqochzwhmmkql.supabase.co/storage/v1/object/sign/coaches-profile-images/Adalgisa%20Holtrop%20PP.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjb2FjaGVzLXByb2ZpbGUtaW1hZ2VzL0FkYWxnaXNhIEhvbHRyb3AgUFAuanBlZyIsImlhdCI6MTc0MzUxNTU3OCwiZXhwIjoxNzc1MDUxNTc4fQ.jwKlSeEiiMYvc2m5hWV-L45gnvvN0acuha5H_hFhZAs";
+  }
+}
+
+@layer components {
+  /* Component styles */
+  .quiz-container {
+    @apply max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-6 sm:p-8;
+  }
+
+  .quiz-title {
+    @apply text-3xl sm:text-4xl font-bold text-primary-700 text-center mb-4;
+    font-family: var(--font-family-display);
+  }
+
+  .quiz-subtitle {
+    @apply text-xl text-secondary-700 text-center mb-8;
+    font-family: var(--font-family-body);
+  }
+
+  .primary-button {
+    @apply bg-primary-500 text-white font-medium px-6 py-3 rounded-md hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 transition-all shadow-md;
+  }
+
+  .secondary-button {
+    @apply bg-white text-primary-500 font-medium px-6 py-3 rounded-md border border-primary-500 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 transition-all;
+  }
+
+  .accent-button {
+    @apply bg-accent-500 text-white font-medium px-6 py-3 rounded-md hover:bg-accent-600 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-opacity-50 transition-all shadow-md;
+  }
+
+  .option-button {
+    @apply w-full bg-white text-secondary-800 font-medium px-4 py-4 rounded-lg border border-secondary-300 hover:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 transition-all;
+  }
+
+  .option-button-selected {
+    @apply border-primary-500 bg-primary-50 text-primary-700 shadow-md;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-secondary-300 rounded-md text-secondary-900 placeholder-secondary-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+  }
+
+  .card {
+    @apply bg-white rounded-lg border border-secondary-200 shadow-md p-6;
+  }
+
+  .coach-image {
+    @apply w-20 h-20 rounded-full mx-auto mb-4 shadow-md border-4 border-primary-100 object-cover;
+  }
+
+  .result-title {
+    @apply text-2xl sm:text-3xl font-bold text-primary-700 mb-4;
+    font-family: var(--font-family-display);
+  }
+
+  .result-description {
+    @apply text-base sm:text-lg text-secondary-700 mb-6;
+    font-family: var(--font-family-body);
+  }
+
+  .highlight {
+    @apply text-primary-600 font-bold;
+  }
+
+  .share-button {
+    @apply flex items-center justify-center gap-2 font-medium px-6 py-3 rounded-full transition shadow-md;
+  }
+
+  .gender-option {
+    @apply bg-white rounded-lg border border-secondary-300 p-3 transition-all hover:border-primary-500 hover:shadow-md;
+  }
+  
+  .gender-option-selected {
+    @apply border-primary-500 bg-primary-50 text-primary-700 shadow-md;
+  }
+  
+  .age-option {
+    @apply bg-white rounded-lg border border-secondary-300 p-2 sm:p-3 transition-all hover:border-primary-500 hover:shadow-md;
+  }
+  
+  .age-option-selected {
+    @apply border-primary-500 bg-primary-50 text-primary-700 shadow-md;
+  }
+}
